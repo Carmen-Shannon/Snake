@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamewindow {
+    display: grid;
+    background-color: darkgrey;
+    width: 100vmin;
+    height: 100vmin;
+    grid-template-rows: repeat(15, 1fr);
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.player {
+    background-color: rgb(38, 38, 196);
+    border: .25vmin solid black;
+}
+
+.apple {
+    background-color: red;
+    border: .25vmin solid black;
+    opacity: 0;
+}
+
+.node {
+    background-color: rgb(38, 38, 196);
+    border: .25vmin solid black;
+}
+
+.score {
+    font-family: sans-serif;
+    color: white;
+}
